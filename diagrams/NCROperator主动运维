@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T08:45:13.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" version="16.6.4" etag="P3Xo8mvo_MdmvSUk_D-2" type="github"><diagram id="kpKCslZZt_6ACfMisTNY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-02T09:31:38.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="eRFPznWtLR-HoFTTo9a_" version="16.6.4" type="github">
+  <diagram id="kpKCslZZt_6ACfMisTNY" name="Page-1">
+    <mxGraphModel dx="946" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KDsNLFenA914UhGUwhjZ-1" value="API-Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDsNLFenA914UhGUwhjZ-3" value="ETCD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="291" y="422" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDsNLFenA914UhGUwhjZ-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KDsNLFenA914UhGUwhjZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="301" as="sourcePoint" />
+            <mxPoint x="320" y="437" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDsNLFenA914UhGUwhjZ-5" value="主动运维Yaml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDsNLFenA914UhGUwhjZ-6" value="NCROperator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDsNLFenA914UhGUwhjZ-7" value="Redis集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="593" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
