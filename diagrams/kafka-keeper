@@ -1,1 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T05:51:51.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" version="16.6.5" etag="owtHivQCd1VOkovz3HlK" type="github"><diagram id="R8YpjBzDoo6HOaBvkcEt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-05T06:28:53.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="OHc4pRFuenAD07V6wIyo" version="16.6.5" type="github">
+  <diagram id="R8YpjBzDoo6HOaBvkcEt" name="Page-1">
+    <mxGraphModel dx="946" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="efnDZ5fV37JvIpCM05tU-34" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="295" y="98" width="720" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-9" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="312" width="440" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-1" value="kafka-broker0" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="589" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-2" value="kafka-broker1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-3" value="kafka-broker2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="851" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-5" value="Kafka Java客户端OpenAPI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="867" y="131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-6" value="Kafka-Operator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-6" target="efnDZ5fV37JvIpCM05tU-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="687" y="184" as="sourcePoint" />
+            <mxPoint x="737" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-15" value="Http协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="efnDZ5fV37JvIpCM05tU-7">
+          <mxGeometry x="-0.5361" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-10" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-5" target="efnDZ5fV37JvIpCM05tU-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="909" y="245" as="sourcePoint" />
+            <mxPoint x="959" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-14" value="Kafka协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="efnDZ5fV37JvIpCM05tU-10">
+          <mxGeometry x="-0.3452" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-11" value="创建Topic、分区扩容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="758" y="119" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-12" value="新增User配额、ACL权限" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="753" y="170" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-13" value="请求Kafka集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="843" y="259" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-16" value="API-Server" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="121" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-16" target="efnDZ5fV37JvIpCM05tU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="477" y="198" as="sourcePoint" />
+            <mxPoint x="527" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-18" value="List&amp;amp;Watch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="476" y="126" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-19" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="111" y="131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-19" target="efnDZ5fV37JvIpCM05tU-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="150" as="sourcePoint" />
+            <mxPoint x="225" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-21" value="Yaml" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="236" y="173" width="36" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-22" value="CR: &lt;br&gt;Kakfa-Topic" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="317" y="342" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-23" value="CR: &lt;br&gt;Kakfa-User" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="426" y="342" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-25" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-16" target="efnDZ5fV37JvIpCM05tU-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="260" as="sourcePoint" />
+            <mxPoint x="454" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-16" target="efnDZ5fV37JvIpCM05tU-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="211" as="sourcePoint" />
+            <mxPoint x="365" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-27" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-6" target="efnDZ5fV37JvIpCM05tU-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="627" y="231" as="sourcePoint" />
+            <mxPoint x="613" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-31" value="Reconcile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="efnDZ5fV37JvIpCM05tU-27">
+          <mxGeometry x="0.2339" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-28" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="efnDZ5fV37JvIpCM05tU-6" target="efnDZ5fV37JvIpCM05tU-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="193" as="sourcePoint" />
+            <mxPoint x="467" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-30" value="Reconcile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="efnDZ5fV37JvIpCM05tU-28">
+          <mxGeometry x="-0.2733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-37" value="&lt;b&gt;K8s集群&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="444" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
