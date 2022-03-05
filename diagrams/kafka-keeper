@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T06:28:53.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="OHc4pRFuenAD07V6wIyo" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T06:32:53.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="nCU1K1qHwT4dcaGxFvRD" version="16.6.5" type="github">
   <diagram id="R8YpjBzDoo6HOaBvkcEt" name="Page-1">
-    <mxGraphModel dx="946" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="944" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,6 +122,9 @@
         </mxCell>
         <mxCell id="efnDZ5fV37JvIpCM05tU-37" value="&lt;b&gt;K8s集群&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="625" y="444" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="efnDZ5fV37JvIpCM05tU-38" value="Kafka集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="739" y="315" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
