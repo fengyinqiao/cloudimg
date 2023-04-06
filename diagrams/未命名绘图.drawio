@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T04:50:24.690Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vkVfL_D97Yqdkt4-Fm8v" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T06:46:19.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CPrwtyjCkwYADmY10Prb" version="20.5.3" type="github">
   <diagram name="Page-1" id="2c4490ee-f0b8-94ab-5012-d5dc3445f7a3">
-    <mxGraphModel dx="2258" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2380" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -1299,7 +1299,7 @@
           <mxGeometry x="347" y="2740" width="60" height="45" as="geometry" />
         </mxCell>
         <mxCell id="uKrZGBWOZSiCV8R7dve0-691" value="MEMORY ALLOCATED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="857" y="2815" width="150" height="30" as="geometry" />
+          <mxGeometry x="852" y="2855" width="158" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uKrZGBWOZSiCV8R7dve0-692" value="MEMORY USAGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="852" y="2885" width="130" height="30" as="geometry" />
@@ -1422,6 +1422,35 @@
         </mxCell>
         <mxCell id="uKrZGBWOZSiCV8R7dve0-721" value="pod: kube-api-server" style="text;html=1;fillColor=#bac8d3;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fillStyle=auto;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-500" y="2520" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-723" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;fontSize=15;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="uKrZGBWOZSiCV8R7dve0-722">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-510" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-724" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.222;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fontSize=15;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="uKrZGBWOZSiCV8R7dve0-722" target="uKrZGBWOZSiCV8R7dve0-374">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-722" value="切换K8s集群，&lt;br&gt;查看资源时序图" style="text;html=1;fillColor=#b1ddf0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=15;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-175" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-726" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.089;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fontSize=15;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="uKrZGBWOZSiCV8R7dve0-725" target="uKrZGBWOZSiCV8R7dve0-557">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-727" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.722;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fontSize=15;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="uKrZGBWOZSiCV8R7dve0-725" target="uKrZGBWOZSiCV8R7dve0-623">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-725" value="切换namespace，&lt;br&gt;查看资源时序图" style="text;html=1;fillColor=#b1ddf0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=15;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1120" width="130" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-729" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fontSize=15;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="uKrZGBWOZSiCV8R7dve0-728" target="uKrZGBWOZSiCV8R7dve0-663">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-730" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fontSize=15;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="uKrZGBWOZSiCV8R7dve0-728" target="uKrZGBWOZSiCV8R7dve0-721">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uKrZGBWOZSiCV8R7dve0-728" value="切换pod，&lt;br&gt;查看资源时序图" style="text;html=1;fillColor=#b1ddf0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=auto;fontSize=15;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="2360" width="130" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
