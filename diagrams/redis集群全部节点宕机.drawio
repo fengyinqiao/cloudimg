@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T06:22:13.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="90wLezohib6THiEkWhG2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T06:36:34.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ewd-YLy43_jFkCPQKzcI" version="20.5.3" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="2151" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -187,7 +187,7 @@
         <mxCell id="6RyUIfgaUFoeRIO4xXDH-7" value="redis-operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="516" y="243" width="221.5" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="6RyUIfgaUFoeRIO4xXDH-71" value="2 拉起宕机主节点，分配slot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="6RyUIfgaUFoeRIO4xXDH-71" value="2 拉起宕机的主节点，分配slot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="153" y="337" width="167" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6RyUIfgaUFoeRIO4xXDH-81" value="redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -223,7 +223,7 @@
         <mxCell id="03nautIme0JNub1uCO7q-14" value="slave&lt;br&gt;(down)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="976" y="650" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="03nautIme0JNub1uCO7q-19" value="3 拉起宕机的从主节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="03nautIme0JNub1uCO7q-19" value="3 拉起宕机的从节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1031" y="342" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="03nautIme0JNub1uCO7q-29" value="主从复制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
