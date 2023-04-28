@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T09:11:26.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pkmL48Kj_yxJc1CwZfPW" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T10:33:30.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="citMF6wDmFghT9ljD48O" version="20.5.3" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="713" dy="628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="546" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,22 +10,22 @@
         <mxCell id="fc0Et_haitifpb5bSG0c-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="655" y="442" width="463" height="253" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-2" value="master0&lt;br&gt;IP:192.168.0.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-2" value="master0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="666" y="468" width="84" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-3" value="slave0&lt;br&gt;IP:192.168.0.3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-3" value="slave0&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="668" y="593" width="84" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-4" value="master1&lt;br&gt;IP:192.168.0.4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-4" value="master1&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="855" y="473" width="83" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-5" value="slave1&lt;br&gt;IP:192.168.0.5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-5" value="slave1&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="857" y="598" width="83" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-6" value="master2&lt;br&gt;IP:192.168.0.6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-6" value="master2&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1003" y="473" width="83" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-7" value="slave2&lt;br&gt;IP:192.168.0.7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-7" value="slave2&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1005" y="598" width="84" height="84" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-16" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
