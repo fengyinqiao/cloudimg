@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T08:28:08.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oBzMnLwSAZDSWIg0exTg" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T08:28:30.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-tUJmpJB7W0-lHp2x3tV" version="20.5.3" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="951" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="1479" y="193" width="888" height="669" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="605" y="467" width="591" height="332" as="geometry" />
+          <mxGeometry x="605" y="391" width="591" height="332" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="655" y="518" width="463" height="253" as="geometry" />
+          <mxGeometry x="655" y="442" width="463" height="253" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="618" y="979" width="573" height="481" as="geometry" />
@@ -27,65 +27,65 @@
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YQscOVflWYW1QB9K6YFz-41" target="YQscOVflWYW1QB9K6YFz-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1008.4444444444443" y="293.66666666666663" as="targetPoint" />
+            <mxPoint x="1008.4444444444443" y="217.66666666666663" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1008" y="294" />
-              <mxPoint x="1008" y="312" />
+              <mxPoint x="1008" y="218" />
+              <mxPoint x="1008" y="236" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.004;exitY=0.87;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="YQscOVflWYW1QB9K6YFz-41" target="fc0Et_haitifpb5bSG0c-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1227" y="339" />
-              <mxPoint x="1227" y="591" />
+              <mxPoint x="1227" y="263" />
+              <mxPoint x="1227" y="515" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YQscOVflWYW1QB9K6YFz-41" value="客户端（cluster模式）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="747.25" y="276" width="221.5" height="72" as="geometry" />
+          <mxGeometry x="747.25" y="200" width="221.5" height="72" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-2" target="k7kp1MV-_mNu26BSV135-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="738" y="529" />
-              <mxPoint x="873" y="529" />
+              <mxPoint x="738" y="453" />
+              <mxPoint x="873" y="453" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-2" value="master0&lt;br&gt;IP:192.168.0.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="666" y="544" width="84" height="84" as="geometry" />
+          <mxGeometry x="666" y="468" width="84" height="84" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-3" value="slave0&lt;br&gt;IP:192.168.0.3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="668" y="669" width="84" height="84" as="geometry" />
+          <mxGeometry x="668" y="593" width="84" height="84" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-4" value="master1&lt;br&gt;IP:192.168.0.4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="855" y="549" width="83" height="83" as="geometry" />
+          <mxGeometry x="855" y="473" width="83" height="83" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-5" value="slave1&lt;br&gt;IP:192.168.0.5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="857" y="674" width="83" height="83" as="geometry" />
+          <mxGeometry x="857" y="598" width="83" height="83" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1228" y="589" as="targetPoint" />
+            <mxPoint x="1228" y="513" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1074" y="615" />
-              <mxPoint x="1228" y="615" />
-              <mxPoint x="1228" y="590" />
+              <mxPoint x="1074" y="539" />
+              <mxPoint x="1228" y="539" />
+              <mxPoint x="1228" y="514" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-6" value="master2&lt;br&gt;IP:192.168.0.6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="1003" y="549" width="83" height="83" as="geometry" />
+          <mxGeometry x="1003" y="473" width="83" height="83" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-7" value="slave2&lt;br&gt;IP:192.168.0.7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="1005" y="674" width="84" height="84" as="geometry" />
+          <mxGeometry x="1005" y="598" width="84" height="84" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-13" value="6 connection refused: podIP网络不通，无法建立连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="602" width="155" height="30" as="geometry" />
+          <mxGeometry x="1230" y="526" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-16" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1127.25" y="474" width="60" height="30" as="geometry" />
+          <mxGeometry x="1127.25" y="398" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-27" target="fc0Et_haitifpb5bSG0c-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -333,22 +333,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-29" value="NodePort或LB" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="828" y="454" width="60" height="30" as="geometry" />
+          <mxGeometry x="828" y="378" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-32" value="1 服务发现：&lt;br&gt;客户端请求获取redis集群拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="771" y="387" width="86" height="40" as="geometry" />
+          <mxGeometry x="771" y="311" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-35" value="3&amp;nbsp; 客户端缓存集群拓扑，此时集群拓扑里的redis节点地址是PodIP，客户端无法直接访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="873.75" y="403" width="143.25" height="24" as="geometry" />
+          <mxGeometry x="873.75" y="327" width="143.25" height="24" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-36" value="2 redis返回集群拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="536" width="96" height="31" as="geometry" />
+          <mxGeometry x="750" y="460" width="96" height="31" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-38" value="4 计算key的哈希，确定命令转发节点：&lt;br&gt;根据key的哈希值和集群拓扑确定要访问的redis节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1014.25" y="269" width="111" height="30" as="geometry" />
+          <mxGeometry x="1014.25" y="193" width="111" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-41" value="5 命令转发：与对应节点建立连接，发送命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="418" width="122" height="30" as="geometry" />
+          <mxGeometry x="1230" y="342" width="122" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-46" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.571;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-28" target="fc0Et_haitifpb5bSG0c-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -462,7 +462,7 @@
           <mxGeometry x="2001.75" y="534" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-80" value="redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="1040.13" y="521" width="60" height="30" as="geometry" />
+          <mxGeometry x="1040.13" y="445" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-81" value="redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="1050.5" y="1188" width="60" height="30" as="geometry" />
