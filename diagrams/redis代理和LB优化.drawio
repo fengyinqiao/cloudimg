@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T07:58:22.948Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3ZhfMHGxuIcbH-N3ox-U" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T08:04:53.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="C15YO0ofxPkbda6ao5FF" version="20.5.3" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="783" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -81,11 +81,11 @@
         <mxCell id="fc0Et_haitifpb5bSG0c-16" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1127.25" y="474" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="fc0Et_haitifpb5bSG0c-27" target="fc0Et_haitifpb5bSG0c-37" edge="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-27" target="fc0Et_haitifpb5bSG0c-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-27" value="客户端（单节点模式）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="787.25" y="875" width="221.5" height="72" as="geometry" />
+          <mxGeometry x="787.25" y="819" width="221.5" height="72" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-28" value="redis集群" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="664.25" y="1188" width="463" height="253" as="geometry" />
@@ -111,23 +111,29 @@
         <mxCell id="fc0Et_haitifpb5bSG0c-36" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1122" y="985" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fc0Et_haitifpb5bSG0c-37" target="fc0Et_haitifpb5bSG0c-38" edge="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-37" target="fc0Et_haitifpb5bSG0c-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.639;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-37" target="fc0Et_haitifpb5bSG0c-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-37" value="LB&lt;br&gt;externalIP:10.0.0.2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="838" y="1008" width="120" height="60" as="geometry" />
+          <mxGeometry x="838" y="986" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.489;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fc0Et_haitifpb5bSG0c-38" target="fc0Et_haitifpb5bSG0c-35" edge="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.489;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-38" target="fc0Et_haitifpb5bSG0c-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-38" target="fc0Et_haitifpb5bSG0c-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-38" value="proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="838" y="1103" width="120" height="60" as="geometry" />
+          <mxGeometry x="838" y="1081" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-39" value="1 LB将proxy暴露给K8s集群外的客户端使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="970" y="1020" width="128" height="30" as="geometry" />
+        <mxCell id="fc0Et_haitifpb5bSG0c-39" value="1 客户端访问LB&lt;br&gt;发送命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="806" y="916" width="90" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-40" value="2 proxy负责key哈希和命令转发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="970" y="1126" width="175" height="30" as="geometry" />
+        <mxCell id="fc0Et_haitifpb5bSG0c-40" value="2 proxy负责key的哈希&lt;br&gt;和命令转发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="812" y="1156" width="72" height="17" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.486;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-47" target="k7kp1MV-_mNu26BSV135-13">
           <mxGeometry relative="1" as="geometry" />
@@ -340,6 +346,21 @@
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-41" value="5 命令转发：与对应节点建立连接，发送命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="418" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-46" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.571;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-28" target="fc0Et_haitifpb5bSG0c-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="907" y="1218" as="sourcePoint" />
+            <mxPoint x="957" y="1168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-47" value="1 LB将流量转发至proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="791" y="1051" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-48" value="3 redis返回命令响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="933" y="1156" width="72" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-49" value="4 客户端接收redis命令响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="931" y="923" width="79" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
