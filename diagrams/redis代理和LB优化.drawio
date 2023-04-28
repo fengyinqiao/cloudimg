@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T08:04:53.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="C15YO0ofxPkbda6ao5FF" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T08:07:51.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4hcxxPBBDwB5MltZexTe" version="20.5.3" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="783" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="951" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,7 +166,7 @@
           <mxGeometry x="657.75" y="2229.5" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-56" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1153" y="1893" width="60" height="30" as="geometry" />
+          <mxGeometry x="1385" y="1845" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-60" value="slave0&lt;br&gt;addr:192.168.0.3:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6380" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="657.75" y="2370.5" width="130" height="130" as="geometry" />
@@ -312,7 +312,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-17" value="redis-operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="1872" width="134" height="72" as="geometry" />
+          <mxGeometry x="1294.5" y="1885" width="134" height="72" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-21" value="2.1 redis返回集群拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="534" y="2329" width="96" height="14" as="geometry" />
