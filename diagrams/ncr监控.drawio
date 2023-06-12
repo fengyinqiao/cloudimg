@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T13:25:52.979Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sBuwanf7hmKJ3DCGeUXW" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T13:27:24.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gOSMwGjw85apOPHsDYaO" version="21.2.9" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="1363" dy="811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fc0Et_haitifpb5bSG0c-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="523" y="49" width="890" height="832" as="geometry" />
+          <mxGeometry x="523" y="49" width="777" height="832" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="621" y="365" width="549" height="400" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="1000" y="392" width="122" height="161" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-16" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1347" y="56" width="60" height="30" as="geometry" />
+          <mxGeometry x="1237" y="49" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-70" value="2 服务发现：&lt;br&gt;客户端请求获取redis集群拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="2123" width="86" height="40" as="geometry" />
@@ -273,7 +273,7 @@
         <mxCell id="QxSuwZqqmujjziNGnTNI-82" value="call&amp;nbsp;big key scan&lt;br&gt;&amp;nbsp;schedully" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="913.5" y="810" width="56.5" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="QxSuwZqqmujjziNGnTNI-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxSuwZqqmujjziNGnTNI-83" target="QxSuwZqqmujjziNGnTNI-46">
+        <mxCell id="QxSuwZqqmujjziNGnTNI-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="QxSuwZqqmujjziNGnTNI-83">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1145" y="195" as="targetPoint" />
           </mxGeometry>
