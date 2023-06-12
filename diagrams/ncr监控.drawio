@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-06-12T12:30:19.385Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="a6uZB4SQnTEWqqwcqhXK" version="21.2.9" type="github">
+  <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
+    <mxGraphModel dx="554" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fc0Et_haitifpb5bSG0c-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="605" y="134" width="780" height="759" as="geometry" />
+        </mxCell>
+        <mxCell id="UUUI14ZKRIE0cY6bywck-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="CZOD9MttlhJFFi8Qf4Fr-31" target="UUUI14ZKRIE0cY6bywck-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-35" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="704" y="266" width="347" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="fc0Et_haitifpb5bSG0c-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="412" width="463" height="309" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-2" value="pod0-0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="421" width="96" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="fc0Et_haitifpb5bSG0c-2" value="master0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="701" y="428" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="fc0Et_haitifpb5bSG0c-16" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1322" y="143" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fc0Et_haitifpb5bSG0c-70" value="2 服务发现：&lt;br&gt;客户端请求获取redis集群拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="2123" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-75" value="subnet&lt;br&gt;（BGP或OVS实现）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="2259" y="198" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k7kp1MV-_mNu26BSV135-80" value="redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="1058" y="428" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="YecgM4xgUUCfINCVM_Nl-14" target="CZOD9MttlhJFFi8Qf4Fr-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YecgM4xgUUCfINCVM_Nl-14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="667" y="771" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YecgM4xgUUCfINCVM_Nl-19" value="1 用户修改CR yaml里的password字段，并将密码以密文形式存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="709.5" y="804" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.998;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="YecgM4xgUUCfINCVM_Nl-21" target="fc0Et_haitifpb5bSG0c-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.998;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="YecgM4xgUUCfINCVM_Nl-21" target="fc0Et_haitifpb5bSG0c-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="YecgM4xgUUCfINCVM_Nl-21" target="CZOD9MttlhJFFi8Qf4Fr-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YecgM4xgUUCfINCVM_Nl-21" value="redis-operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+          <mxGeometry x="1249" y="603" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YecgM4xgUUCfINCVM_Nl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785.5" y="816" as="sourcePoint" />
+            <mxPoint x="785.5" y="816" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YecgM4xgUUCfINCVM_Nl-31" value="2 解密新旧密码，&lt;br&gt;使用旧密码连接redis，&lt;br&gt;将新密码热加载至redis中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1115" y="624" width="142" height="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-1" value="exporter&lt;br&gt;env:pwd" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="699" y="495" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-6" value="pod0-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="574" width="96" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-7" value="slave0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="701" y="581" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-8" value="exporter&lt;br&gt;env:pwd" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="700" y="650" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-9" value="pod1-0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="826" y="418" width="96" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-10" value="master1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="847" y="425" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-11" value="exporter&lt;br&gt;env:pwd" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="843" y="494" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-12" value="pod1-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="826" y="571" width="96" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-13" value="slave1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="847" y="578" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-14" value="exporter&lt;br&gt;env:pwd" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="845" y="647" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-15" value="pod2-0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="962" y="418" width="96" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-16" value="master2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="983" y="425" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-17" value="exporter&lt;br&gt;env:pwd" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="983.5" y="495" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-18" value="pod2-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="962" y="571" width="96" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-19" value="slave2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="983" y="578" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-20" value="exporter&lt;br&gt;env:pwd" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="981" y="648" width="53" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-46" value="list and watch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" parent="1" source="CZOD9MttlhJFFi8Qf4Fr-21" target="YecgM4xgUUCfINCVM_Nl-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-21" value="redis cluster&lt;br&gt;CR.yaml&lt;br&gt;password:&amp;lt;encrypted_pwd&amp;gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;dashPattern=1 1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="847" y="735" width="101" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-24" value="3 将新密码写入容器环境变量，滚动重建redis-exporter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1126" y="518" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-25" value="4 使用新密码生成proxy配置文件，滚动重建proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1118" y="318" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.478;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CZOD9MttlhJFFi8Qf4Fr-29" target="fc0Et_haitifpb5bSG0c-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-29" value="proxy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="852" y="290" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.675;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CZOD9MttlhJFFi8Qf4Fr-30" target="fc0Et_haitifpb5bSG0c-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="967" y="411" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-30" value="proxy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="943" y="290" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CZOD9MttlhJFFi8Qf4Fr-31" target="fc0Et_haitifpb5bSG0c-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-31" value="proxy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="747" y="290" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-37" value="deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="983" y="263" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZOD9MttlhJFFi8Qf4Fr-45" value="CONFIG SET REQUIREPASS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="1141" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UUUI14ZKRIE0cY6bywck-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="UUUI14ZKRIE0cY6bywck-2" target="CZOD9MttlhJFFi8Qf4Fr-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUUI14ZKRIE0cY6bywck-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="UUUI14ZKRIE0cY6bywck-2" target="CZOD9MttlhJFFi8Qf4Fr-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUUI14ZKRIE0cY6bywck-2" value="proxy.conf&lt;br&gt;redis_pwd:xxx" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;dashed=1;dashPattern=1 1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="167" width="86" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="UUUI14ZKRIE0cY6bywck-3" value="configmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="167" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
