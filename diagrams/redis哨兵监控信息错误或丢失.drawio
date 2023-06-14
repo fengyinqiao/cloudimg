@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T09:44:51.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Emo_sZQtquSnXW12v-iq" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T09:46:52.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_IAsyWU2RWEL_bKHSJGA" version="21.2.9" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="1068" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -23,10 +23,13 @@
           <mxGeometry x="664" y="537" width="72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YQscOVflWYW1QB9K6YFz-37" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master&lt;br&gt;IP:192.168.0.2&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="913.5" y="871" width="95" height="95" as="geometry" />
+          <mxGeometry x="913.5" y="862" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="gdGmkP0q-EB1DCXv0-2s-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="YQscOVflWYW1QB9K6YFz-39" target="YQscOVflWYW1QB9K6YFz-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YQscOVflWYW1QB9K6YFz-39" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;slave&lt;br&gt;IP:192.168.0.3&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="913.5" y="994" width="94" height="94" as="geometry" />
+          <mxGeometry x="913.5" y="1002" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="B2N0Zq3Kd3Tc7z_olNVD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.106;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="YQscOVflWYW1QB9K6YFz-41" target="YQscOVflWYW1QB9K6YFz-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -71,17 +74,17 @@
           <mxGeometry x="1034" y="437" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B2N0Zq3Kd3Tc7z_olNVD-10" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;6 sentinel恢复监控&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1226" y="777" width="104" height="30" as="geometry" />
+          <mxGeometry x="1513" y="740" width="104" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B2N0Zq3Kd3Tc7z_olNVD-11" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;br&gt;监控信息&lt;br&gt;master: &amp;lt;wrong_addr&amp;gt; or empty&lt;br&gt;slave: &amp;lt;wrong_addr&amp;gt; or empty&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="604" y="650" width="189" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B2N0Zq3Kd3Tc7z_olNVD-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="B2N0Zq3Kd3Tc7z_olNVD-27" target="YQscOVflWYW1QB9K6YFz-36" edge="1">
+        <mxCell id="B2N0Zq3Kd3Tc7z_olNVD-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="B2N0Zq3Kd3Tc7z_olNVD-27" target="YQscOVflWYW1QB9K6YFz-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1205" y="957" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1226" y="694" />
-              <mxPoint x="1226" y="965" />
+              <mxPoint x="1509" y="616" />
+              <mxPoint x="1509" y="965" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -102,6 +105,9 @@
         </mxCell>
         <mxCell id="B2N0Zq3Kd3Tc7z_olNVD-33" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;br&gt;监控信息(更新后)&lt;br&gt;master: 192.168.0.2&lt;br&gt;slave: 192.168.0.3&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1147" y="657" width="120.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gdGmkP0q-EB1DCXv0-2s-6" value="主从复制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="964" y="966" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
