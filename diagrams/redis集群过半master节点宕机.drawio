@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T09:28:10.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F4NE9oU8UGYe5Itk6Gaj" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T09:29:15.716Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="J6CiWMGN74ohLfwoznw1" version="21.2.9" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="1468" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6RyUIfgaUFoeRIO4xXDH-51" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 旧主节点执行cluster replicate&lt;br&gt;复制新主节点，然后变为从节点，集群状态恢复&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="6RyUIfgaUFoeRIO4xXDH-51" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 旧主节点执行cluster replicate&lt;br&gt;复制新主节点，自身变为从节点，集群状态恢复&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="484" y="786" width="173" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6RyUIfgaUFoeRIO4xXDH-54" value="主从复制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
