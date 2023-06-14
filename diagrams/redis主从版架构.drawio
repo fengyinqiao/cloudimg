@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T10:30:26.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="o2bID2TgmApFxspFrUQC" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T10:31:32.987Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="m2z6ksFP96mhqrmI7qVx" version="21.2.9" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="1068" dy="474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
         <mxCell id="JCnKJu_SesA96RIREx59-9" value="Statefulset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="891" y="543" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Uo1W_nmXf2cL3QHq6NlG-2" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;维护&lt;span style=&quot;background-color: initial;&quot;&gt;哨兵monitor信息&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Uo1W_nmXf2cL3QHq6NlG-2" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;添加并维护&lt;span style=&quot;background-color: initial;&quot;&gt;哨兵monitor信息&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="686" y="628" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Uo1W_nmXf2cL3QHq6NlG-4" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;部署运维管理redis主从版&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
