@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T03:36:23.928Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HVllmxE-TQn3QB-Agvf9" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T03:59:29.987Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QZuvXlnAA7Z-Jr74PRpX" version="21.2.9" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="1335" dy="1033" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -158,6 +158,14 @@
         <mxCell id="fc0Et_haitifpb5bSG0c-47" value="客户端（cluster模式）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="779.25" y="1620" width="221.5" height="72" as="geometry" />
         </mxCell>
+        <mxCell id="8dxpS0PHY5nWG-0NEdOh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.001;exitY=0.177;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="fc0Et_haitifpb5bSG0c-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1191.6666666666667" y="1995.3333333333335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1192" y="2259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-48" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="646.75" y="2203.5" width="492" height="313" as="geometry" />
         </mxCell>
@@ -170,13 +178,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-49" value="master0&lt;br&gt;addr:192.168.0.2:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6379" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-49" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master0&lt;br&gt;addr:192.168.0.2:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6379&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="657.75" y="2229.5" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-56" value="K8s集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1385" y="1845" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-60" value="slave0&lt;br&gt;addr:192.168.0.3:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6380" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-60" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;slave0&lt;br&gt;addr:192.168.0.3:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6380&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="657.75" y="2370.5" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-61" edge="1">
@@ -188,35 +196,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-61" value="master2&lt;br&gt;addr:192.168.0.6:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6579" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-61" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master2&lt;br&gt;addr:192.168.0.6:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6579&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="980.5" y="2229.5" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-62" value="slave0&lt;br&gt;addr:192.168.0.7:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6580" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-62" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;slave2&lt;br&gt;addr:192.168.0.7:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6580&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="980.5" y="2370.5" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-63" value="master1&lt;br&gt;addr:192.168.0.4:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6479" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-63" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master1&lt;br&gt;addr:192.168.0.4:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6479&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="817.75" y="2229.5" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-64" value="slave1&lt;br&gt;Addr:192.168.0.5:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6480" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-64" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;slave1&lt;br&gt;Addr:192.168.0.5:6379&lt;br&gt;clusterAnnounceAddr: 10.0.0.1:6480&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="817.75" y="2370.5" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fc0Et_haitifpb5bSG0c-65" value="redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1056.75" y="2207.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-66" value="1 operator创建main-sub LB service，根据externalIP和externalPort设置redis的clusterAnnounceAddr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1227" y="1975" width="201.5" height="30" as="geometry" />
+        <mxCell id="fc0Et_haitifpb5bSG0c-66" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;1 operator创建main-LB和sub- LB service，根据VIP和port设置redis的clusterAnnounceAddr&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1198" y="1976" width="174" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-67" value="3 计算key的哈希，确定命令转发节点：&lt;br&gt;根据key的哈希值和集群拓扑确定要访问的redis节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-67" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;5 客户端计算key的哈希和slot，根据集群拓扑确定请求节点&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1062" y="1639" width="111" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-68" value="4 命令转发：与对应节点建立连接，发送命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-68" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;6 客户端与请求节点建立连接，发送命令&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1230" y="2107" width="122" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-69" value="5 clusterAnnounceAddr是客户端可访问的公网地址，建立连接成功，redis返回命令响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1223" y="2313" width="183" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-70" value="2 服务发现：&lt;br&gt;客户端请求获取redis集群拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="2123" width="86" height="40" as="geometry" />
+        <mxCell id="fc0Et_haitifpb5bSG0c-69" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;7 客户端与redis的clusterAnnounceAddr建立连接，redis返回命令响应&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1223" y="2313" width="151" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-72" target="fc0Et_haitifpb5bSG0c-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -237,7 +242,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-72" value="main-LB&lt;br&gt;externalIP:10.0.0.1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-72" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;main-LB&lt;br&gt;VIP:10.0.0.1&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="827.75" y="1908" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-75" target="fc0Et_haitifpb5bSG0c-49" edge="1">
@@ -248,7 +253,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-75" value="sub-LB&lt;br&gt;externalPort:6379" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-75" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;sub-LB-master0&lt;br&gt;port:6379&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="680.88" y="2011" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-76" target="fc0Et_haitifpb5bSG0c-63" edge="1">
@@ -260,7 +265,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-76" value="sub-LB&lt;br&gt;externalPort:6479" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-76" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;sub-LB-master1&lt;br&gt;port:6479&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="822.88" y="2011" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fc0Et_haitifpb5bSG0c-78" target="fc0Et_haitifpb5bSG0c-61" edge="1">
@@ -271,7 +276,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-78" value="sub-LB&lt;br&gt;externalPort:6579" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-78" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;sub-LB-master2&lt;br&gt;port:6579&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="978.13" y="2009" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-79" target="fc0Et_haitifpb5bSG0c-60" edge="1">
@@ -282,13 +287,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-79" value="sub-LB&lt;br&gt;externalPort:6380" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-79" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;sub-LB-slave0&lt;br&gt;p&lt;span style=&quot;background-color: initial;&quot;&gt;ort:6380&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="682.88" y="2092" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-80" target="fc0Et_haitifpb5bSG0c-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-80" value="sub-LB&lt;br&gt;externalPort:6480" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-80" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;sub-LB-slave1&lt;br&gt;port:6480&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="824.88" y="2092" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="fc0Et_haitifpb5bSG0c-81" target="fc0Et_haitifpb5bSG0c-62" edge="1">
@@ -299,7 +304,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc0Et_haitifpb5bSG0c-81" value="sub-LB&lt;br&gt;externalPort:6580" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="fc0Et_haitifpb5bSG0c-81" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;sub-LB-slave2&lt;br&gt;port:6580&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="980.13" y="2090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.543;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="k7kp1MV-_mNu26BSV135-13" target="fc0Et_haitifpb5bSG0c-47" edge="1">
@@ -314,19 +319,21 @@
           <mxGeometry x="1078.75" y="1906" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.369;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="k7kp1MV-_mNu26BSV135-17" target="k7kp1MV-_mNu26BSV135-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="1921" />
+              <mxPoint x="1191" y="1996" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-17" value="redis-operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="1294.5" y="1885" width="134" height="72" as="geometry" />
+          <mxGeometry x="1218.5" y="1885" width="134" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="k7kp1MV-_mNu26BSV135-21" value="2.1 redis返回集群拓扑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="534" y="2329" width="96" height="14" as="geometry" />
+        <mxCell id="k7kp1MV-_mNu26BSV135-21" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;3 redis返回集群拓扑&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="474" y="2152" width="72" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="k7kp1MV-_mNu26BSV135-22" value="2.2&amp;nbsp; 客户端缓存集群拓扑，此时集群拓扑里的redis节点地址是公网地址，客户端可直接访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="902" y="1728" width="134" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="k7kp1MV-_mNu26BSV135-27" value="6 客户端接收命令响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="873.75" y="1800" width="183" height="30" as="geometry" />
+        <mxCell id="k7kp1MV-_mNu26BSV135-27" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;8 客户端接收命令响应&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="902.12" y="1802" width="136.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.169;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="k7kp1MV-_mNu26BSV135-29" target="fc0Et_haitifpb5bSG0c-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -471,6 +478,12 @@
         </mxCell>
         <mxCell id="8dxpS0PHY5nWG-0NEdOh-6" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 proxy返回命令响应&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="936" y="1060" width="120.75" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="8dxpS0PHY5nWG-0NEdOh-8" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;2 客户端获取redis集群拓扑&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="801" y="1730" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8dxpS0PHY5nWG-0NEdOh-9" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 客户端缓存redis集群拓扑&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="908" y="1738" width="86" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
