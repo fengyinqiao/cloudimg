@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T02:07:06.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RRQMxjYlNUC-B1B5lEs5" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T02:12:56.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="m9GczfMsxHBL7r-eUnQM" version="21.2.9" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="872" dy="757" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1190" dy="947" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,8 +61,8 @@
             <mxPoint x="785.5" y="816" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YecgM4xgUUCfINCVM_Nl-31" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;2 解密新旧密码，&lt;br&gt;使用旧密码连接redis，&lt;br&gt;将新密码热加载至redis中&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1117" y="627" width="142" height="66.5" as="geometry" />
+        <mxCell id="YecgM4xgUUCfINCVM_Nl-31" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;2 解密密码，使用旧密码连接redis，将新密码热加载至redis&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1129" y="629" width="114" height="66.5" as="geometry" />
         </mxCell>
         <mxCell id="CZOD9MttlhJFFi8Qf4Fr-1" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;exporter&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="699" y="495" width="53" height="53" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry x="1128" y="518" width="107" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CZOD9MttlhJFFi8Qf4Fr-25" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 使用新密码生成proxy配置，滚动重启proxy&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1118" y="319" width="127" height="30" as="geometry" />
+          <mxGeometry x="1154" y="321" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CZOD9MttlhJFFi8Qf4Fr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.478;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="CZOD9MttlhJFFi8Qf4Fr-29" target="fc0Et_haitifpb5bSG0c-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -155,6 +155,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UUUI14ZKRIE0cY6bywck-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="UUUI14ZKRIE0cY6bywck-2" target="CZOD9MttlhJFFi8Qf4Fr-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5SQXjjF51jTGpoGu6OEJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.646;entryY=-0.256;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="UUUI14ZKRIE0cY6bywck-2" target="CZOD9MttlhJFFi8Qf4Fr-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UUUI14ZKRIE0cY6bywck-2" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;proxy.conf&lt;br&gt;redis_pwd:xxx&lt;/p&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;dashed=1;dashPattern=1 1;fillColor=none;" parent="1" vertex="1">
