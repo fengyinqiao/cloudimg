@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T01:39:25.083Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SttLjc2qaLjBGMIfw2JC" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T01:40:45.019Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="D28WqNRzUwC9AoUuSGEm" version="21.2.9" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="554" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
           <mxGeometry x="1097" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YecgM4xgUUCfINCVM_Nl-23" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;3 operator监听事件，等待cm同步完成&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="919" y="863" width="150" height="30" as="geometry" />
+          <mxGeometry x="927" y="863" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YecgM4xgUUCfINCVM_Nl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="YecgM4xgUUCfINCVM_Nl-24" target="YecgM4xgUUCfINCVM_Nl-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -115,7 +115,7 @@
           <mxGeometry x="632" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YecgM4xgUUCfINCVM_Nl-26" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;2 kubelet同步cm修改至容器&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="756" y="863" width="95" height="30" as="geometry" />
+          <mxGeometry x="768" y="863" width="89" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YecgM4xgUUCfINCVM_Nl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="YecgM4xgUUCfINCVM_Nl-11" target="YecgM4xgUUCfINCVM_Nl-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
