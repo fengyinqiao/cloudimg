@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T06:52:41.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vnbuYBLNEH4JT5aaq5Rm" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T06:54:12.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KlrX_qaMJCbGR6nX-vPK" version="21.6.2" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="857" dy="634" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -545,8 +545,8 @@
         <mxCell id="7h_gLRWyWyL7MHuIv_91-179" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;2 设置cluster-announce-addr&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1112" y="1035.5" width="90" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="7h_gLRWyWyL7MHuIv_91-180" value="1) 原始模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="715.99" y="663" width="251" height="30" as="geometry" />
+        <mxCell id="7h_gLRWyWyL7MHuIv_91-180" value="1) 原生模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="715.99" y="661" width="251" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-181" value="4) BGP直连模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1422" y="1568.5" width="251" height="30" as="geometry" />
