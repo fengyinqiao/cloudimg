@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T07:31:26.428Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xIXU3BCblC_xbrehvpUF" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:17:11.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ivh8dmNvzdxLAUX5vlZo" version="21.6.6" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="1363" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -469,11 +469,11 @@
         <mxCell id="EKX-5jDuFIZ7UJzmlgKB-60" value="&lt;font color=&quot;#ff0000&quot;&gt;double slave&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1094" y="1828" width="84" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-62" value="redis双从问题分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="322" y="1563" width="101" height="41" as="geometry" />
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-62" value="redis双从问题分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="322" y="1563" width="109" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-63" value="redis双主问题分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="241.5" y="2370" width="101" height="41" as="geometry" />
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-63" value="redis双主问题分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="282" y="2329" width="117" height="41" as="geometry" />
         </mxCell>
         <mxCell id="EKX-5jDuFIZ7UJzmlgKB-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="356.5" y="2450" width="132" height="246" as="geometry" />
