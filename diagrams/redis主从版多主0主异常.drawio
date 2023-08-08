@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T07:11:21.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="u4A04JC6LROeNATJvMoN" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T07:31:26.428Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xIXU3BCblC_xbrehvpUF" version="21.6.6" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="1363" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-74" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="2450" width="132" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-71" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="586" y="2450" width="132" height="246" as="geometry" />
+        </mxCell>
         <mxCell id="EKX-5jDuFIZ7UJzmlgKB-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1066" y="1720" width="132" height="246" as="geometry" />
         </mxCell>
@@ -465,6 +471,73 @@
         </mxCell>
         <mxCell id="EKX-5jDuFIZ7UJzmlgKB-62" value="redis双从问题分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="322" y="1563" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-63" value="redis双主问题分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241.5" y="2370" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="2450" width="132" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-65" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="381.5" y="2471" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EKX-5jDuFIZ7UJzmlgKB-69" target="EKX-5jDuFIZ7UJzmlgKB-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-82" value="start redis-server" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EKX-5jDuFIZ7UJzmlgKB-81">
+          <mxGeometry x="0.0323" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-69" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;slave&lt;br&gt;(down)&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="381.5" y="2597" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-72" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="611" y="2471" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EKX-5jDuFIZ7UJzmlgKB-73" target="EKX-5jDuFIZ7UJzmlgKB-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-73" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;starting&lt;/span&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="611" y="2597" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-75" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="860" y="2471" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-76" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;master&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="860" y="2597" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="2631" as="targetPoint" />
+            <mxPoint x="583" y="2341" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-83" value="1. kubectl&lt;br&gt;exec" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EKX-5jDuFIZ7UJzmlgKB-80">
+          <mxGeometry x="0.284" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EKX-5jDuFIZ7UJzmlgKB-79" target="EKX-5jDuFIZ7UJzmlgKB-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="772" y="2634.6666666666665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="772" y="2383" />
+              <mxPoint x="772" y="2609" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-79" value="redis-operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="583" y="2311" width="221.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-87" value="3. Redis is not ready to accept TCP connections.&lt;br&gt;SLAVEOF failed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="714.75" y="2657" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-89" value="2. conenct to redis and SLAVEOF master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="775" y="2411" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-90" value="&lt;font color=&quot;#ff0000&quot;&gt;double master&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="2558" width="84" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
