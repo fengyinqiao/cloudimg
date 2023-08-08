@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T08:17:11.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ivh8dmNvzdxLAUX5vlZo" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:26:11.879Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8ySLVarDmywNqkAJ0asK" version="21.6.6" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="1193" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="545" dy="370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -451,7 +451,7 @@
         <mxCell id="EKX-5jDuFIZ7UJzmlgKB-45" value="1. network disconnect&lt;br&gt;sentinel master +odown" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="182" y="1966" width="132" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-51" value="2.2 master switch to slave failed ,due to newwork disconnect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EKX-5jDuFIZ7UJzmlgKB-51" value="2.2 master switch to slave failed ,due to network disconnect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="509" y="1676" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EKX-5jDuFIZ7UJzmlgKB-52" value="&lt;font color=&quot;#ff0000&quot;&gt;double master&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
