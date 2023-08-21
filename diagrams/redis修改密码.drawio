@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T02:12:56.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="m9GczfMsxHBL7r-eUnQM" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T06:53:33.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Dg1nOvs-PGKGsZNw0Rgk" version="21.6.6" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="1190" dy="947" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="554" dy="648" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
         <mxCell id="UUUI14ZKRIE0cY6bywck-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="UUUI14ZKRIE0cY6bywck-2" target="CZOD9MttlhJFFi8Qf4Fr-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5SQXjjF51jTGpoGu6OEJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.646;entryY=-0.256;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="UUUI14ZKRIE0cY6bywck-2" target="CZOD9MttlhJFFi8Qf4Fr-25">
+        <mxCell id="5SQXjjF51jTGpoGu6OEJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.646;entryY=-0.256;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="UUUI14ZKRIE0cY6bywck-2" target="CZOD9MttlhJFFi8Qf4Fr-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UUUI14ZKRIE0cY6bywck-2" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;proxy.conf&lt;br&gt;redis_pwd:xxx&lt;/p&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;dashed=1;dashPattern=1 1;fillColor=none;" parent="1" vertex="1">
@@ -165,6 +165,54 @@
         </mxCell>
         <mxCell id="UUUI14ZKRIE0cY6bywck-3" value="configmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="1203" y="167" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0ylri12X7iHXYagq-m8-2" target="V0ylri12X7iHXYagq-m8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-2" value="用户修改密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="1009" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0ylri12X7iHXYagq-m8-4" target="V0ylri12X7iHXYagq-m8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-4" value="Operator热配置新密码至Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1009" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0ylri12X7iHXYagq-m8-6" target="V0ylri12X7iHXYagq-m8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-6" value="Operator滚动重建proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1024" y="1009" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-7" value="Operator创建主动运维，滚动重建exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1258" y="1009" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0ylri12X7iHXYagq-m8-9" target="V0ylri12X7iHXYagq-m8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-9" value="用户修改密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1144" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0ylri12X7iHXYagq-m8-11" target="V0ylri12X7iHXYagq-m8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-11" value="Operator热配置新密码至Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="813" y="1144" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0ylri12X7iHXYagq-m8-13" target="V0ylri12X7iHXYagq-m8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-13" value="Operator热配置新密码至sentinel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="1144" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-14" value="Operator滚动重建exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1261" y="1144" width="124" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-15" value="&lt;b&gt;Redis集群版修改密码：&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="606" y="960" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V0ylri12X7iHXYagq-m8-16" value="&lt;b&gt;Redis主从版修改密码：&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="607" y="1106" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
