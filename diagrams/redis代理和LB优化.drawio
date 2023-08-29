@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T02:03:20.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DJnpsoq2mIevFfFBvQmX" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T02:08:46.642Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XEFhvhJsebcowRidWVpb" version="21.6.8" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="430" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="963" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,8 +168,8 @@
         <mxCell id="k7kp1MV-_mNu26BSV135-38" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 计算key的哈希slot&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="949" y="283.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="k7kp1MV-_mNu26BSV135-41" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;5 根据slot拓扑建立连接&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="966.99" y="356" width="81.01" height="30" as="geometry" />
+        <mxCell id="k7kp1MV-_mNu26BSV135-41" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;5 根据slot拓扑与节点建立连接&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="956" y="353" width="88.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-46" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.469;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="fc0Et_haitifpb5bSG0c-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -282,7 +282,7 @@
           <mxGeometry x="1403" y="1256" width="98" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-24" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;3&amp;nbsp; 缓存集群拓扑&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1518.88" y="1264" width="94.25" height="24" as="geometry" />
+          <mxGeometry x="1516.88" y="1264" width="94.25" height="24" as="geometry" />
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-25" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;2 返回集群拓扑&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1454" y="1343" width="53" height="31" as="geometry" />
@@ -290,8 +290,8 @@
         <mxCell id="7h_gLRWyWyL7MHuIv_91-26" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 计算key的哈希slot&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1635" y="1181.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="7h_gLRWyWyL7MHuIv_91-27" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;5 根据拓扑&lt;span style=&quot;background-color: initial;&quot;&gt;建立连接，发送命令&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1633.9899999999998" y="1262" width="101" height="30" as="geometry" />
+        <mxCell id="7h_gLRWyWyL7MHuIv_91-27" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;5 根据slot拓扑与节点&lt;span style=&quot;background-color: initial;&quot;&gt;建立连接，发送命令&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1616" y="1262" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-28" value="redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="1647.13" y="1325" width="60" height="30" as="geometry" />
@@ -327,7 +327,7 @@
           <mxGeometry x="1489" y="212.5" width="134.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-134" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;dashed=1;dashPattern=1 1;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="522" y="885.5" width="708" height="689" as="geometry" />
+          <mxGeometry x="522" y="885.5" width="724" height="689" as="geometry" />
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-135" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;dashed=1;dashPattern=1 1;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="594" y="933.5" width="486" height="269" as="geometry" />
@@ -409,8 +409,8 @@
         <mxCell id="7h_gLRWyWyL7MHuIv_91-152" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;6 计算key的哈希slot&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="959.6300000000001" y="777.5" width="63" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="7h_gLRWyWyL7MHuIv_91-153" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;7 根据slot拓扑建立连接，发送命令&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1128" y="1143.5" width="102" height="30" as="geometry" />
+        <mxCell id="7h_gLRWyWyL7MHuIv_91-153" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;7 根据slot拓扑与节点建立连接，发送命令&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1128" y="1143.5" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-154" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;8 返回命令响应&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1127" y="1342.5" width="88" height="30" as="geometry" />
@@ -556,6 +556,9 @@
         </mxCell>
         <mxCell id="7h_gLRWyWyL7MHuIv_91-183" value="3) LB直连模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="792.01" y="1580.5" width="190" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="7HIoVvM25HdYvGORcoff-3" value="NodePort或LB" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="1292" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
