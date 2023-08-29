@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T08:32:09.334Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KvG57k9TZ5gLNvx--iKl" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T02:03:20.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DJnpsoq2mIevFfFBvQmX" version="21.6.8" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="963" dy="926" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="430" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,7 +183,7 @@
         <mxCell id="k7kp1MV-_mNu26BSV135-48" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;4 返回命令响应&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1572.5" y="411" width="87.5" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="k7kp1MV-_mNu26BSV135-49" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;5 接收命令响应&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="k7kp1MV-_mNu26BSV135-49" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;6 接收命令响应&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1564.5" y="282.5" width="94.75" height="17" as="geometry" />
         </mxCell>
         <mxCell id="k7kp1MV-_mNu26BSV135-80" value="redis集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
