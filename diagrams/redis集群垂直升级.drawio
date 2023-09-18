@@ -1,26 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T12:10:28.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nMHeIk6-EpBYdAYiD-mT" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T12:28:40.401Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MqU71Q07q-M0dEgu_kkv" version="21.7.5" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="1272" dy="864" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zc3PDM--odiP0PYMRJm5-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H4AHmsklHaAgQYHNetgv-2" target="wjV-2MAntqy5bPziTcna-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H4AHmsklHaAgQYHNetgv-2" value="Reconcile" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="244" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H4AHmsklHaAgQYHNetgv-16" value="&lt;b&gt;Redis集群版垂直升级：&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="132" y="194" width="145" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-1" target="wjV-2MAntqy5bPziTcna-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wjV-2MAntqy5bPziTcna-1" value="随机挑选sts，更新spec.template" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="351" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="526" as="sourcePoint" />
+            <mxPoint x="412" y="563" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="411" y="531" />
+              <mxPoint x="412" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-54" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-50">
+          <mxGeometry x="0.0179" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-3" target="zc3PDM--odiP0PYMRJm5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-55" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-53">
+          <mxGeometry x="-0.4308" y="3" relative="1" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wjV-2MAntqy5bPziTcna-3" value="sts副本数&lt;br&gt;小于3" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="367" y="454" width="80" height="80" as="geometry" />
+          <mxGeometry x="371" y="446" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-4" target="wjV-2MAntqy5bPziTcna-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wjV-2MAntqy5bPziTcna-4" value="扩容sts副本数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="353" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="353" y="563" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wjV-2MAntqy5bPziTcna-6" value="Pod是否running" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="669" width="80" height="80" as="geometry" />
+        <mxCell id="zc3PDM--odiP0PYMRJm5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.428;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="749" as="sourcePoint" />
+            <mxPoint x="412.36" y="784.3999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-45" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-37">
+          <mxGeometry x="-0.5089" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-6" value="新Pod是否running" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="373" y="669" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wjV-2MAntqy5bPziTcna-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wjV-2MAntqy5bPziTcna-6" target="wjV-2MAntqy5bPziTcna-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -30,118 +73,200 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-44" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wjV-2MAntqy5bPziTcna-9">
+          <mxGeometry x="-0.3292" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-10" target="wjV-2MAntqy5bPziTcna-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wjV-2MAntqy5bPziTcna-10" value="启动Redis进程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="353" y="776" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="782" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-11" target="zc3PDM--odiP0PYMRJm5-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wjV-2MAntqy5bPziTcna-11" value="新节点加入集群" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="355" y="867" width="120" height="60" as="geometry" />
+          <mxGeometry x="355" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-1" target="zc3PDM--odiP0PYMRJm5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-63" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-56">
+          <mxGeometry x="-0.5143" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-1" target="zc3PDM--odiP0PYMRJm5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-61" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-60">
+          <mxGeometry x="-0.1944" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-1" value="所有Pod副本&lt;br&gt;是否已升级" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="446" width="80" height="80" as="geometry" />
+          <mxGeometry x="597" y="446" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-2" target="zc3PDM--odiP0PYMRJm5-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-2" value="挑选扩容出来的&lt;br&gt;Pod副本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="578" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-3" target="zc3PDM--odiP0PYMRJm5-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-3" value="停止Redis进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="676" width="120" height="60" as="geometry" />
+          <mxGeometry x="578" y="676" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-4" target="zc3PDM--odiP0PYMRJm5-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-4" value="从集群中移除该节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="778" width="120" height="60" as="geometry" />
+          <mxGeometry x="578" y="778" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-5" value="缩容sts副本数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="608" y="865" width="120" height="60" as="geometry" />
+          <mxGeometry x="581" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-6" target="zc3PDM--odiP0PYMRJm5-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-6" value="挑选未升级的&lt;br&gt;Pod副本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="848" y="456" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="456" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-8" target="zc3PDM--odiP0PYMRJm5-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-8" value="主从切换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1017" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="989" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-10" target="zc3PDM--odiP0PYMRJm5-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-10" value="停止Redis进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="834" y="676" width="120" height="60" as="geometry" />
+          <mxGeometry x="806" y="676" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-11" target="zc3PDM--odiP0PYMRJm5-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-11" value="从集群中移除该节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="834" y="778" width="120" height="60" as="geometry" />
+          <mxGeometry x="806" y="778" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-12" value="删除Pod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="834" y="867" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-14" value="新Pod是否running" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="842" y="975" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-14" target="zc3PDM--odiP0PYMRJm5-14">
+        <mxCell id="zc3PDM--odiP0PYMRJm5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wjV-2MAntqy5bPziTcna-6">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="864" y="926" as="sourcePoint" />
+            <mxPoint x="362" y="708" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="942" y="1015" />
-              <mxPoint x="942" y="975" />
+              <mxPoint x="864" y="1385" />
+              <mxPoint x="260" y="1385" />
+              <mxPoint x="260" y="708" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-16" value="启动Redis进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="836" y="1106" width="120" height="60" as="geometry" />
+        <mxCell id="zc3PDM--odiP0PYMRJm5-12" value="删除Pod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="806" y="867" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-17" value="新节点加入集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="838" y="1197" width="120" height="60" as="geometry" />
+        <mxCell id="zc3PDM--odiP0PYMRJm5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-18" target="zc3PDM--odiP0PYMRJm5-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-18" value="复制master节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="971" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-19" value="复制master节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="838" y="1300" width="120" height="60" as="geometry" />
+        <mxCell id="zc3PDM--odiP0PYMRJm5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-27" target="zc3PDM--odiP0PYMRJm5-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-20" value="所有节点&lt;br&gt;的集群拓扑&lt;br&gt;是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="846" y="1538" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-20" target="zc3PDM--odiP0PYMRJm5-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="946" y="1578" />
-              <mxPoint x="946" y="1538" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-23" value="主从复制&lt;br&gt;是否完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="844" y="1417" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-23" target="zc3PDM--odiP0PYMRJm5-23">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="944" y="1457" />
-              <mxPoint x="944" y="1417" />
-            </Array>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-43" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-41">
+          <mxGeometry x="-0.4878" y="-1" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-27" value="主从复制&lt;br&gt;是否完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="363" y="1117" width="80" height="80" as="geometry" />
+          <mxGeometry x="375" y="1082" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-27" target="zc3PDM--odiP0PYMRJm5-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="463" y="1157" />
-              <mxPoint x="463" y="1117" />
+              <mxPoint x="475" y="1122" />
+              <mxPoint x="475" y="1082" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-42" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-28">
+          <mxGeometry x="-0.2375" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-30" target="zc3PDM--odiP0PYMRJm5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-68" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-67">
+          <mxGeometry x="-0.075" y="-3" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-30" value="校验是否&lt;br&gt;为主节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="858" y="560" width="80" height="80" as="geometry" />
+          <mxGeometry x="830" y="560" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-30" target="zc3PDM--odiP0PYMRJm5-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1012" y="600" />
+              <mxPoint x="984" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-64" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-31">
+          <mxGeometry x="0.0127" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="667" as="targetPoint" />
+            <mxPoint x="1222" y="645" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="667" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-32" value="主从切换&lt;br&gt;是否完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1209" y="550" width="80" height="80" as="geometry" />
+          <mxGeometry x="1160" y="560" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-32" target="zc3PDM--odiP0PYMRJm5-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1309" y="590" />
-              <mxPoint x="1309" y="550" />
+              <mxPoint x="1260" y="603" />
+              <mxPoint x="1260" y="563" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-66" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-33">
+          <mxGeometry x="-0.3083" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-34" target="zc3PDM--odiP0PYMRJm5-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-34" value="所有节点&lt;br&gt;集群拓扑&lt;br&gt;是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1203" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-34" target="zc3PDM--odiP0PYMRJm5-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="1243" />
+              <mxPoint x="475" y="1203" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-46" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-35">
+          <mxGeometry x="-0.2417" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-47" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1274" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
