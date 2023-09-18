@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" modified="2023-09-18T11:41:49.557Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="t2y37TXhGj5248wcIICS" version="21.7.5" type="github">
+  <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
+    <mxGraphModel dx="954" dy="648" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H4AHmsklHaAgQYHNetgv-2" value="Reconcile" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="244" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H4AHmsklHaAgQYHNetgv-16" value="&lt;b&gt;Redis集群版垂直升级：&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="132" y="194" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-1" value="随机挑选sts，更新spec.template" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="351" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-3" value="sts副本数&lt;br&gt;等于3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="454" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-4" value="扩容sts副本数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-6" value="Pod是否running" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="577" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wjV-2MAntqy5bPziTcna-6" target="wjV-2MAntqy5bPziTcna-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="617" />
+              <mxPoint x="467" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-10" value="拉起Pod内的&lt;br&gt;Redis进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="684" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjV-2MAntqy5bPziTcna-11" value="新节点加入集群&lt;br&gt;，集群握手" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
