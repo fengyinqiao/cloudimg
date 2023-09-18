@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T12:28:40.401Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MqU71Q07q-M0dEgu_kkv" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T12:31:16.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kTFTd150Z-jna49M2bWm" version="21.7.5" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="1193" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -127,6 +127,9 @@
         <mxCell id="zc3PDM--odiP0PYMRJm5-4" value="从集群中移除该节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="578" y="778" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-5" target="zc3PDM--odiP0PYMRJm5-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-5" value="缩容sts副本数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="581" y="875" width="120" height="60" as="geometry" />
         </mxCell>
@@ -198,12 +201,17 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-30" target="zc3PDM--odiP0PYMRJm5-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zc3PDM--odiP0PYMRJm5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-30" target="zc3PDM--odiP0PYMRJm5-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="668" />
+              <mxPoint x="870" y="668" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-68" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-67">
           <mxGeometry x="-0.075" y="-3" relative="1" as="geometry">
-            <mxPoint x="2" as="offset" />
+            <mxPoint x="2" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-30" value="校验是否&lt;br&gt;为主节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -223,7 +231,7 @@
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="865" y="667" as="targetPoint" />
+            <mxPoint x="870" y="667" as="targetPoint" />
             <mxPoint x="1222" y="645" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1200" y="667" />
@@ -266,7 +274,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-47" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="1274" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="1274" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
