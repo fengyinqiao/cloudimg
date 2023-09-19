@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T02:42:27.532Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lXze02db9XpgrYKI7vpM" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T02:44:04.387Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="r2aGaj6XxxrpD61JHFoV" version="21.7.5" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="1522" dy="1162" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="1120" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
         <mxCell id="zc3PDM--odiP0PYMRJm5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-2" target="zc3PDM--odiP0PYMRJm5-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-2" value="挑选sts编号最大的Pod副本，准备缩容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zc3PDM--odiP0PYMRJm5-2" value="挑选sts编号最大的Pod副本准备缩容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="578" y="494" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-3" target="zc3PDM--odiP0PYMRJm5-4">
@@ -163,7 +163,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zc3PDM--odiP0PYMRJm5-12" value="删除Pod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zc3PDM--odiP0PYMRJm5-12" value="删除Pod&lt;br&gt;等待重建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="139" y="906" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zc3PDM--odiP0PYMRJm5-18" target="zc3PDM--odiP0PYMRJm5-27">
