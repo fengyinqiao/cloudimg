@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T13:10:27.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TX8XL_3NikTmSYcDmuZN" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T01:40:21.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3uW7rKkZ16-U-6sCN0ir" version="21.7.5" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
-    <mxGraphModel dx="1004" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1468" dy="997" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,6 +235,11 @@
             <Array as="points">
               <mxPoint x="1200" y="663" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zc3PDM--odiP0PYMRJm5-91" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zc3PDM--odiP0PYMRJm5-69">
+          <mxGeometry x="0.0616" y="2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zc3PDM--odiP0PYMRJm5-32" value="主从切换&lt;br&gt;是否完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
