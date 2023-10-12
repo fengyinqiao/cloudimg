@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T02:33:17.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NGi1WROd1xuBGAo-p05W" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:36:03.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LX-Ef7reh9g0qBEwg1vS" version="22.0.4" type="github">
   <diagram id="rYdwiMb5jvszhZctyrXV" name="第 1 页">
     <mxGraphModel dx="660" dy="1520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UXaWH8541CflgYRBNMMw-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UXaWH8541CflgYRBNMMw-10" target="UXaWH8541CflgYRBNMMw-7" edge="1">
+        <mxCell id="UXaWH8541CflgYRBNMMw-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="UXaWH8541CflgYRBNMMw-10" target="UXaWH8541CflgYRBNMMw-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UXaWH8541CflgYRBNMMw-10" value="keepalived&lt;br&gt;（backup）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -160,7 +160,7 @@
         <mxCell id="UXaWH8541CflgYRBNMMw-56" value="kube-proxy" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="808" y="-415" width="50" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="UXaWH8541CflgYRBNMMw-61" value="deploy&lt;br&gt;iptables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="UXaWH8541CflgYRBNMMw-61" value="config&lt;br&gt;iptables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="765" y="-408.5" width="36" height="14" as="geometry" />
         </mxCell>
         <mxCell id="UXaWH8541CflgYRBNMMw-67" value="kube-proxy" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
@@ -171,7 +171,7 @@
             <mxPoint x="1051" y="-395" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UXaWH8541CflgYRBNMMw-78" value="deploy&lt;br&gt;iptables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="UXaWH8541CflgYRBNMMw-78" value="config&lt;br&gt;iptables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1085" y="-420" width="36" height="34" as="geometry" />
         </mxCell>
         <mxCell id="UXaWH8541CflgYRBNMMw-87" value="allocate VIP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -195,6 +195,9 @@
               <mxPoint x="1059" y="-501.06" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GS2fXvJDOvFpqDZdyhBI-4" value="config forward route" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="802.5" y="-353" width="46.5" height="9" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
